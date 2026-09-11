@@ -1,0 +1,29 @@
+PLANTILLA MAESTRA — INFORMATICA II
+
+Esta carpeta es una plantilla docente, no un repositorio Git independiente.
+Distribúyala mediante el ZIP de Classroom: al abrirlo, el alumnado debe obtener
+una sola carpeta raiz llamada informatica-2bach.
+
+Antes de distribuirla, compruebe que contiene docs/, src/, mkdocs.yml,
+requirements.txt y .github/workflows/pages.yml, y que NO contiene .git, .venv,
+__pycache__, caches, builds, credenciales, tokens, trabajos personales,
+datasets pesados, PDFs docentes ni soluciones.
+
+El flujo ordinario es local: abrir la carpeta completa en VS Code, git init,
+git config --local, editar, guardar, git status, git add ., git commit y
+continuar. No use git config --global en equipos compartidos. No se necesita
+login, navegador, Internet, GitHub, fetch, pull ni push para las clases.
+
+El entorno operativo ya preparado en LliureX es:
+~/informatica2-env/bin/python
+
+La prueba local de la web debe usar explícitamente ese intérprete:
+~/informatica2-env/bin/python -m mkdocs serve
+
+requirements.txt declara MkDocs como dependencia directa de construcción y
+MkDocs Material como dependencia directa del tema configurado en mkdocs.yml.
+
+Mantenga .github como configuración versionable para una publicación ocasional
+posterior. .git es un repositorio real y no debe existir dentro de esta
+plantilla. La sincronización se hará solo cuando el profesor lo indique,
+mediante el material independiente de gh + HTTPS y cierre de sesión.

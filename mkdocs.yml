@@ -1,0 +1,14 @@
+site_name: Cuaderno técnico de Informática II
+site_description: Evidencias, decisiones y resultados de Informática II
+theme:
+  name: material
+  language: es
+
+nav:
+  - Inicio: index.md
+  - Python: python/index.md
+  - Imagen como datos: imagen/index.md
+  - Multiespectral: satelite/index.md
+  - Investigación: investigacion/index.md
+  - Uso crítico de IA: ia/index.md
+  - Cierre: cierre/index.md
